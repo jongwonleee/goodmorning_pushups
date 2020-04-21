@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="구분동작 3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:text=":"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/num_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingLeft="3dp"
+        android:singleLine="true"
+        android:text="12.5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="초"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/div_sub01"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="4dp"
+        android:background="#E0E0E0"
+        android:text="-0.1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/div_sub1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="4dp"
+            android:background="#E0E0E0"
+            android:text="-1"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/div_add1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="4dp"
+        android:background="#E0E0E0"
+        android:text="+1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <Button
+        android:id="@+id/div_add01"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="4dp"
+        android:background="#E0E0E0"
+        android:text="+0.1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
